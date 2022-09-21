@@ -17,8 +17,8 @@ public class Main {
         v2.setDriver(d2); 	// Prints “Driver not changed! Niklas is 21, but must be 25 or older to drive tank”
         v2.setDriver(new Driver("TankMan", 30)); // Prints “Driver changed to TankMan”
 
-     /*   v1.drive(); // Prints “Car drove 10 miles - 90 miles to go”
+        v1.drive(); // Prints “Car drove 10 miles - 90 miles to go”
         v2.drive(); // Prints “Tank drove 5 miles - 1995 miles to go”
-*/
+
     }
 }
