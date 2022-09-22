@@ -25,7 +25,7 @@ public class Vehicle {
         // är setDriver giltigt och null bytas ut mot giltig Driver
         if (driver.getAge() >= legalAge)
             System.out.println("Driver changed to " + driver.getName());
-        else System.out.println("Driver not changed! " + driver.getName() + " is " + driver.getAge() + ", but must be " + legalAge + " or older to drive car");
+        else System.out.println("Driver not changed! " + driver.getName() + " is " + driver.getAge() + ", but must be " + legalAge + " or older to drive " + type);
     }
 
     // Metod drive som kollar utifall Driver är null.
